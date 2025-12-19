@@ -1,2 +1,2 @@
-float64 n_
+float64 n_l
 float64 n_r
