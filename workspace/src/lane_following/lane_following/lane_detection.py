@@ -90,14 +90,12 @@ def visualize(frame, mask_pred_, mask_bev_, cx_lane):
     y_min = int(h * roi_ymin)
     y_max = int(h * roi_ymax)
 
-    # scale to display size
     scale_x = disp_size[0] / w
     scale_y = disp_size[1] / h
 
     y_min_disp = int(y_min * scale_y)
     y_max_disp = int(y_max * scale_y)
 
-    # vẽ khung ROI (màu vàng)
     cv2.rectangle(
         mask_color_bev,
         (0,      y_min_disp),
@@ -175,9 +173,8 @@ class LaneDetection(Node):
 
         offset, cx_lane = self.CalculateSignalControl(mask_bev)
 
-        # if abs(offset) < 0.01:
-        #    offset = 0.0
-        offset = 0.025
+        if abs(offset) < 0.01:
+           offset = 0.0
 
 
         self.get_logger().info(f"Offset: {offset} m") 
@@ -230,11 +227,11 @@ class LaneDetection(Node):
             cx_lane = ((cx_right - cx_left) / 2.0) + cx_left
         elif len(left_lane) > 0 and len(right_lane) == 0:
             cx_left = np.mean(left_lane)
-            cx_lane = w/2 + 0.02*self.SCALE
+            cx_lane = w/2 + 0.025*self.SCALE
 
         elif len(left_lane) == 0 and len(right_lane) > 0:
             cx_right = np.mean(right_lane)
-            cx_lane = w/2 - 0.02*self.SCALE
+            cx_lane = w/2 - 0.025*self.SCALE
         else:
             return 0.0, 0.0
 
