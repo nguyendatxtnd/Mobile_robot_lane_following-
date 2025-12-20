@@ -20,10 +20,6 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 DEVICE_NAME = torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"
 H_IMAGE = 256
 W_IMAGE = 352
-#MEAN=[0.6363, 0.6163, 0.6192]
-#STD=[0.1996, 0.2243, 0.2501]
-#MEAN=[0.52, 0.5111, 0.5059]
-#STD=[0.2196, 0.2299, 0.2577]
 
 MEAN=[0.4263, 0.4579, 0.475]
 STD=[0.2593, 0.2345, 0.2518]
@@ -206,20 +202,6 @@ class LaneDetection(Node):
         col_roi = roi_points[:, 1]
         left_lane = col_roi[col_roi < w*0.45]
         right_lane = col_roi[col_roi >= w*0.55]
-
-        # if len(left_lane) > 0 and len(right_lane) > 0:
-        #     cx_left = np.mean(left_lane)
-        #     cx_right = np.mean(right_lane)
-        #     cx_lane = (cx_left + cx_right) / 2.0
-        # elif len(left_lane) > 0 and len(right_lane) == 0:
-        #     cx_left = np.mean(left_lane)
-        #     cx_lane = cx_left + (self.DISTANCE_LANE * self.SCALE / 2.0)
-
-        # elif len(left_lane) == 0 and len(right_lane) > 0:
-        #     cx_right = np.mean(right_lane)
-        #     cx_lane = cx_right - (self.DISTANCE_LANE * self.SCALE / 2.0)
-        # else:
-        #     return 0.0, 0.0
         
         if len(left_lane) > 0 and len(right_lane) > 0:
             cx_left = np.mean(left_lane)

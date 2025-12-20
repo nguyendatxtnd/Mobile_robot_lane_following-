@@ -18,16 +18,6 @@ THRESHOLD = 0.85
 THRESHOLD_2 = 0.04
 LABEL = ['wheel']
 
-# DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-# DEVICE_NAME = torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"
-
-# try:
-#     model = YOLO(WEIGHT_PATH)
-#     print("Model running on:", model.device)
-# except Exception as e:
-#     print(f"Model load error: {e}")
-#     exit()
-
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 DEVICE_NAME = torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU"
 

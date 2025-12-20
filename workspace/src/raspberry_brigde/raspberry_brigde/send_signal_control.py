@@ -14,7 +14,7 @@ Kp_offset = 10.0
 Ki_offset = 0.0
 Kd_offset = 0.01
 
-K = 1.1 #ti so giua van toc mong muon va van toc thuc te 
+K = 1.0745 #ti so giua van toc mong muon va van toc thuc te 
 
 L = 0.165  #khoang cach giua 2 banh (m)
 v_target = 0.05 # van toc dai (m/s) 
@@ -59,7 +59,7 @@ class PubSignalControl(Node):
         # self.n_l_history = []
         # self.n_r_history = []
 
-        self.timer = self.create_timer(0.05, self.callback)
+        self.timer = self.create_timer(0.1, self.callback)
     
     def lane_offset_callback(self,msg):
         self.lane_offset = msg.offset
@@ -96,44 +96,7 @@ class PubSignalControl(Node):
         n_left = phi_left * (60/(2*math.pi))
         n_right = phi_right * (60/(2*math.pi))
 
-        # vl_pwm = max(min((msg.phi_l / OMEGA_MAX_DC) * 100.0, 100.0), -100.0)
-        # vr_pwm = max(min((msg.phi_r / OMEGA_MAX_DC) * 100.0, 100.0), -100.0)
-
-        # pwm_left = round( (n_left/V_DC_MAX) * 255 ) 
-        # pwm_right = round( (n_right/V_DC_MAX) * 255 )
-
-        #self.get_logger().info(f"mode: {self.mode}, v: {v:.2f}, omega: {omega:.2f} -- Phi_L: {phi_left:.2f}, Phi_R: {phi_right:.2f}")
         self.get_logger().info(f"mode: {self.mode}, v: {v:.2f}, omega: {omega:.2f} -- n_left: {n_left:.2f}, n_right: {n_right:.2f}")
-        #self.get_logger().info(f"mode: {self.mode}, v: {v:.2f}, omega: {omega:.2f}")
-
-        #self.get_logger().info(f"mode: {self.mode}, v: {v:.2f}, omega: {omega:.2f} -- pwm_left: {pwm_left}, pwm_right: {pwm_right}")
-
-        # omega_motor_left = phi_left * gear_ratio
-        # omega_motor_right = phi_right * gear_ratio
-
-        # self.get_logger().info(f"v: {v:.2f}, omega: {omega:.2f} -- Phi_L: {omega_motor_left:.2f}, Phi_R: {omega_motor_right:.2f}")
-
-        # msg_send_pi = SignalControl()
-        # msg_send_pi.vl = omega_motor_left
-        # msg_send_pi.vr = omega_motor_right
-        # self.pub.publish(msg_send_pi)
-
-        # self.offset_history.append(offset)
-        # self.v_history.append(v)
-        # self.omega_history.append(omega)
-        # self.vl_history.append(omega_motor_left)
-        # self.vr_history.append(omega_motor_right)
-
-        # msg_send_pi = SignalControl()
-        # msg_send_pi.phi_l = phi_left
-        # msg_send_pi.phi_r = phi_right
-        # self.pub.publish(msg_send_pi)
-
-        # self.offset_history.append(self.offset)
-        # self.v_history.append(v)
-        # self.omega_history.append(omega)
-        # self.phi_l_history.append(phi_left)
-        # self.phi_r_history.append(phi_right)
 
         msg_send_pi = SignalControl()
         msg_send_pi.n_l = n_left
