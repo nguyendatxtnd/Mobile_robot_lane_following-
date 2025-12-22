@@ -169,9 +169,9 @@ class LaneDetection(Node):
 
         offset, cx_lane = self.CalculateSignalControl(mask_bev)
 
-        if abs(offset) < 0.01:
-           offset = 0.0
-
+        #if abs(offset) < 0.01:
+           #offset = 0.0
+        offset = 0.025 
 
         self.get_logger().info(f"Offset: {offset} m") 
 
