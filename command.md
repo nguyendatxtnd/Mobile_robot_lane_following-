@@ -45,7 +45,7 @@ Kết nối ssh:
 	
 2. Trên pi
 
-lƯU Ý: TRƯỚC KHI RÚT NGUỒN CỦA PI, CẦN TẮT PI BẰNG LỆNH SAU:
+LƯU Ý: TRƯỚC KHI RÚT NGUỒN CỦA PI, CẦN TẮT PI BẰNG LỆNH SAU:
 
 		sudo poweroff 
 
