@@ -1,4 +1,4 @@
-0. Kết nối ssh (pi và laptop cần kết nối cùng mạng với nhau)
+0. KẾT NỐI SSH (pi và laptop cần kết nối cùng mạng với nhau)
 
 Thông tin pi:
 
@@ -30,7 +30,7 @@ Kết nối ssh:
 
 		ssh <username>@<IP_pi>
 
-1. Trên Laptop
+1. TRÊN LAPTOP
 
 		git clone https://github.com/nguyendatxtnd/Mobile_robot_lane_following-.git
 	
@@ -43,7 +43,7 @@ Kết nối ssh:
 		ros2 launch file_launch calculation_n.py
 	
 	
-2. Trên pi
+2. TRÊN PI
 
 LƯU Ý: TRƯỚC KHI RÚT NGUỒN CỦA PI, CẦN TẮT PI BẰNG LỆNH SAU:
 
