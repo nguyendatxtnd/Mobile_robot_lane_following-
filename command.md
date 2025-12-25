@@ -81,13 +81,13 @@ LƯU Ý: TRƯỚC KHI RÚT NGUỒN CỦA PI, CẦN TẮT PI BẰNG LỆNH SAU:
    
    		source install/setup.bash
    
-   		ros2 run robot_brigde read_send_image.py
+   		ros2 run robot_brigde read_send_image
    
    Cửa sổ 2 (gửi tín hiệu đến động cơ):
    
    		source install/setup.bash
    
-   		ros2 run robot_brigde motor_control.py
+   		ros2 run robot_brigde motor_control
    		
    
    	

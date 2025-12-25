@@ -1,4 +1,0 @@
-[console_scripts]
-get_image = raspberry_brigde.get_image:main
-send_signal_control = raspberry_brigde.send_signal_control:main
-

@@ -1,2 +1,0 @@
-FastSCNN
-lane_following

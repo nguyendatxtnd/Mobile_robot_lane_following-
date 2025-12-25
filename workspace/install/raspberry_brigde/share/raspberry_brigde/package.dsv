@@ -1,6 +1,0 @@
-source;share/raspberry_brigde/hook/pythonpath.ps1
-source;share/raspberry_brigde/hook/pythonpath.dsv
-source;share/raspberry_brigde/hook/pythonpath.sh
-source;share/raspberry_brigde/hook/ament_prefix_path.ps1
-source;share/raspberry_brigde/hook/ament_prefix_path.dsv
-source;share/raspberry_brigde/hook/ament_prefix_path.sh

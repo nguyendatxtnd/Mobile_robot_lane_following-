@@ -1,9 +1,0 @@
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/uninstall.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/file_launch_uninstall.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/test.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/edit_cache.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/rebuild_cache.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/list_install_components.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/install.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/install/local.dir
-/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/file_launch/CMakeFiles/install/strip.dir

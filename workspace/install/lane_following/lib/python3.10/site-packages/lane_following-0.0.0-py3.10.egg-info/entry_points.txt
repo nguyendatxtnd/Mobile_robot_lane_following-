@@ -1,3 +1,0 @@
-[console_scripts]
-lane_detection = lane_following.lane_detection:main
-
