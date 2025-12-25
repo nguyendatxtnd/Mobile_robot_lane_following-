@@ -40,7 +40,7 @@ Kết nối ssh:
 	
 		source install/setup.bash
 	
-		ros2 launch file_launch calculation_n.py
+		ros2 launch file_launch calculation_n.launch.py
 	
 	
 2. TRÊN PI

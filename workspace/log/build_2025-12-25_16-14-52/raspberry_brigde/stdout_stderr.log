@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/raspberry_brigde/raspberry_brigde.egg-info
+writing ../../build/raspberry_brigde/raspberry_brigde.egg-info/PKG-INFO
+writing dependency_links to ../../build/raspberry_brigde/raspberry_brigde.egg-info/dependency_links.txt
+writing entry points to ../../build/raspberry_brigde/raspberry_brigde.egg-info/entry_points.txt
+writing requirements to ../../build/raspberry_brigde/raspberry_brigde.egg-info/requires.txt
+writing top-level names to ../../build/raspberry_brigde/raspberry_brigde.egg-info/top_level.txt
+writing manifest file '../../build/raspberry_brigde/raspberry_brigde.egg-info/SOURCES.txt'
+reading manifest file '../../build/raspberry_brigde/raspberry_brigde.egg-info/SOURCES.txt'
+writing manifest file '../../build/raspberry_brigde/raspberry_brigde.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde
+copying raspberry_brigde/send_signal_control.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde
+copying raspberry_brigde/__init__.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde
+copying raspberry_brigde/get_image.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde
+copying raspberry_brigde/PID.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde
+running install
+running install_lib
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde
+copying /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde/send_signal_control.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde
+copying /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde/__init__.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde
+copying /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde/get_image.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde
+copying /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build/lib/raspberry_brigde/PID.py -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde
+byte-compiling /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde/send_signal_control.py to send_signal_control.cpython-310.pyc
+byte-compiling /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde/get_image.py to get_image.cpython-310.pyc
+byte-compiling /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde/PID.py to PID.cpython-310.pyc
+running install_data
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/share/ament_index
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/share/ament_index/resource_index
+creating /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/share/ament_index/resource_index/packages
+copying resource/raspberry_brigde -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/share/ament_index/resource_index/packages
+copying package.xml -> /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/share/raspberry_brigde
+running install_egg_info
+Copying ../../build/raspberry_brigde/raspberry_brigde.egg-info to /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_image script to /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/raspberry_brigde
+Installing send_signal_control script to /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/raspberry_brigde
+writing list of installed files to '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/install.log'

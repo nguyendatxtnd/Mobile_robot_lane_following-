@@ -1,0 +1,254 @@
+[0.007s] Invoking command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/src/type_msg -DCMAKE_INSTALL_PREFIX=/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.210s] -- Detecting CXX compiler ABI info - done
+[0.217s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.217s] -- Detecting CXX compile features
+[0.218s] -- Detecting CXX compile features - done
+[0.219s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.337s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.404s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.020s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.021s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.041s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.042s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.042s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.058s] -- Found PythonExtra: .so  
+[1.082s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.087s] -- Configuring done
+[1.108s] -- Generating done
+[1.116s] -- Build files have been written to: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg
+[1.122s] Invoked command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/src/type_msg -DCMAKE_INSTALL_PREFIX=/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg
+[1.123s] Invoking command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg -- -j12 -l12
+[1.150s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.157s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.163s] [  5%] Built target ament_cmake_python_copy_type_msg
+[1.404s] [  5%] Built target type_msg__cpp
+[1.412s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.412s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.412s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.413s] running egg_info
+[1.413s] creating type_msg.egg-info
+[1.414s] writing type_msg.egg-info/PKG-INFO
+[1.414s] writing dependency_links to type_msg.egg-info/dependency_links.txt
+[1.414s] writing top-level names to type_msg.egg-info/top_level.txt
+[1.414s] writing manifest file 'type_msg.egg-info/SOURCES.txt'
+[1.416s] reading manifest file 'type_msg.egg-info/SOURCES.txt'
+[1.417s] writing manifest file 'type_msg.egg-info/SOURCES.txt'
+[1.420s] [ 17%] [32mBuilding C object CMakeFiles/type_msg__rosidl_generator_c.dir/rosidl_generator_c/type_msg/msg/detail/signal_control__functions.c.o[0m
+[1.420s] [ 17%] [32mBuilding C object CMakeFiles/type_msg__rosidl_generator_c.dir/rosidl_generator_c/type_msg/msg/detail/offset_angle__functions.c.o[0m
+[1.447s] [ 17%] Built target ament_cmake_python_build_type_msg_egg
+[1.478s] [ 20%] [32m[1mLinking C shared library libtype_msg__rosidl_generator_c.so[0m
+[1.505s] [ 20%] Built target type_msg__rosidl_generator_c
+[1.513s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.513s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.513s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.630s] [ 30%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_msg/msg/offset_angle__type_support.cpp.o[0m
+[1.632s] [ 33%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/type_msg/msg/signal_control__type_support.cpp.o[0m
+[1.645s] [ 35%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_msg/msg/detail/signal_control__type_support.cpp.o[0m
+[1.645s] [ 38%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/type_msg/msg/detail/offset_angle__type_support.cpp.o[0m
+[1.691s] [ 41%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_msg/msg/detail/dds_fastrtps/offset_angle__type_support.cpp.o[0m
+[1.692s] [ 43%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/type_msg/msg/detail/dds_fastrtps/signal_control__type_support.cpp.o[0m
+[1.775s] [ 46%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_msg/msg/detail/offset_angle__type_support_c.cpp.o[0m
+[1.779s] [ 48%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/type_msg/msg/detail/signal_control__type_support_c.cpp.o[0m
+[1.792s] [ 51%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_msg/msg/offset_angle__type_support.cpp.o[0m
+[1.793s] [ 53%] [32mBuilding CXX object CMakeFiles/type_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/type_msg/msg/signal_control__type_support.cpp.o[0m
+[1.830s] [ 56%] [32m[1mLinking CXX shared library libtype_msg__rosidl_typesupport_c.so[0m
+[1.841s] [ 58%] [32mBuilding C object CMakeFiles/type_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_msg/msg/detail/offset_angle__type_support.c.o[0m
+[1.841s] [ 61%] [32mBuilding C object CMakeFiles/type_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/type_msg/msg/detail/signal_control__type_support.c.o[0m
+[1.882s] [ 61%] Built target type_msg__rosidl_typesupport_c
+[1.885s] [ 64%] [32m[1mLinking C shared library libtype_msg__rosidl_typesupport_introspection_c.so[0m
+[1.911s] [ 64%] Built target type_msg__rosidl_typesupport_introspection_c
+[1.971s] [ 66%] [32m[1mLinking CXX shared library libtype_msg__rosidl_typesupport_cpp.so[0m
+[2.006s] [ 66%] Built target type_msg__rosidl_typesupport_cpp
+[2.134s] [ 69%] [32m[1mLinking CXX shared library libtype_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.138s] [ 71%] [32m[1mLinking CXX shared library libtype_msg__rosidl_typesupport_introspection_cpp.so[0m
+[2.171s] [ 71%] Built target type_msg__rosidl_typesupport_introspection_cpp
+[2.181s] [ 74%] [32m[1mLinking CXX shared library libtype_msg__rosidl_typesupport_fastrtps_c.so[0m
+[2.194s] [ 74%] Built target type_msg__rosidl_typesupport_fastrtps_cpp
+[2.236s] [ 74%] Built target type_msg__rosidl_typesupport_fastrtps_c
+[2.249s] [ 74%] Built target type_msg
+[2.263s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.564s] [ 76%] Built target type_msg__py
+[2.579s] [ 82%] [32mBuilding C object CMakeFiles/type_msg__rosidl_generator_py.dir/rosidl_generator_py/type_msg/msg/_offset_angle_s.c.o[0m
+[2.579s] [ 82%] [32mBuilding C object CMakeFiles/type_msg__rosidl_generator_py.dir/rosidl_generator_py/type_msg/msg/_signal_control_s.c.o[0m
+[2.656s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/type_msg/libtype_msg__rosidl_generator_py.so[0m
+[2.685s] [ 84%] Built target type_msg__rosidl_generator_py
+[2.700s] [ 89%] [32mBuilding C object CMakeFiles/type_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/type_msg/_type_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[2.700s] [ 89%] [32mBuilding C object CMakeFiles/type_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/type_msg/_type_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.700s] [ 92%] [32mBuilding C object CMakeFiles/type_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/type_msg/_type_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.774s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/type_msg/type_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.774s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/type_msg/type_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.775s] [100%] [32m[1mLinking C shared library rosidl_generator_py/type_msg/type_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.798s] [100%] Built target type_msg__rosidl_typesupport_introspection_c__pyext
+[2.799s] [100%] Built target type_msg__rosidl_typesupport_c__pyext
+[2.799s] [100%] Built target type_msg__rosidl_typesupport_fastrtps_c__pyext
+[2.808s] Invoked command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg -- -j12 -l12
+[2.815s] Invoking command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg
+[2.820s] -- Install configuration: ""
+[2.820s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/ament_index/resource_index/rosidl_interfaces/type_msg
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__struct.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__struct.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__functions.c
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__functions.c
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__functions.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__functions.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__type_support.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__type_support.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/offset_angle.h
+[2.821s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/rosidl_generator_c__visibility_control.h
+[2.822s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/signal_control.h
+[2.822s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/library_path.sh
+[2.822s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/library_path.dsv
+[2.822s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_generator_c.so
+[2.822s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_generator_c.so" to ""
+[2.822s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg
+[2.822s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg
+[2.822s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail
+[2.822s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__rosidl_typesupport_fastrtps_c.h
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__rosidl_typesupport_fastrtps_c.h
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_fastrtps_c.so
+[2.823s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[2.823s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg
+[2.823s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg
+[2.823s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__type_support.c
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__type_support.c
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__rosidl_typesupport_introspection_c.h
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__rosidl_typesupport_introspection_c.h
+[2.823s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_introspection_c.so
+[2.824s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_introspection_c.so" to ""
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_c.so
+[2.824s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_c.so" to ""
+[2.824s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg
+[2.824s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg
+[2.824s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__builder.hpp
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__builder.hpp
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__struct.hpp
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__type_support.hpp
+[2.824s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__struct.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__traits.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__type_support.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__traits.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/offset_angle.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/signal_control.hpp
+[2.825s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg
+[2.825s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg
+[2.825s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__rosidl_typesupport_fastrtps_cpp.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/dds_fastrtps
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[2.825s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.826s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_fastrtps_cpp.so
+[2.826s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.826s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg
+[2.826s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg
+[2.826s] -- Up-to-date: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail
+[2.826s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__type_support.cpp
+[2.826s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__type_support.cpp
+[2.826s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/offset_angle__rosidl_typesupport_introspection_cpp.hpp
+[2.826s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/include/type_msg/type_msg/msg/detail/signal_control__rosidl_typesupport_introspection_cpp.hpp
+[2.826s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_introspection_cpp.so
+[2.827s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_cpp.so
+[2.827s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_typesupport_cpp.so" to ""
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/pythonpath.sh
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/pythonpath.dsv
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg-0.0.0-py3.10.egg-info
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg-0.0.0-py3.10.egg-info/top_level.txt
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.827s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/libtype_msg__rosidl_generator_py.so
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/_type_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/_offset_angle_s.c
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/_signal_control_s.c
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/_offset_angle.py
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/_signal_control.py
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/__init__.py
+[2.828s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.829s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.829s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/__init__.py
+[2.829s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/_type_msg_s.ep.rosidl_typesupport_introspection_c.c
+[2.829s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/_type_msg_s.ep.rosidl_typesupport_c.c
+[2.856s] Listing '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg'...
+[2.856s] Compiling '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/__init__.py'...
+[2.856s] Listing '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg'...
+[2.856s] Compiling '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/__init__.py'...
+[2.857s] Compiling '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/_offset_angle.py'...
+[2.857s] Compiling '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/msg/_signal_control.py'...
+[2.860s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.860s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.860s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.860s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.861s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.861s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/local/lib/python3.10/dist-packages/type_msg/type_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.861s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_generator_py.so
+[2.861s] -- Set runtime path of "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/lib/libtype_msg__rosidl_generator_py.so" to ""
+[2.861s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/msg/OffsetAngle.idl
+[2.861s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/msg/SignalControl.idl
+[2.861s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/msg/OffsetAngle.msg
+[2.861s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/msg/SignalControl.msg
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/ament_index/resource_index/package_run_dependencies/type_msg
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/ament_index/resource_index/parent_prefix_path/type_msg
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/ament_prefix_path.sh
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/ament_prefix_path.dsv
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/path.sh
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/environment/path.dsv
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/local_setup.bash
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/local_setup.sh
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/local_setup.zsh
+[2.862s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/local_setup.dsv
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/package.dsv
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/ament_index/resource_index/packages/type_msg
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_generator_cExport.cmake
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_generator_cExport-noconfig.cmake
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_introspection_cExport.cmake
+[2.863s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_cExport.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_cExport-noconfig.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_generator_cppExport.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_introspection_cppExport.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_cppExport.cmake
+[2.864s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_generator_pyExport.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/export_type_msg__rosidl_generator_pyExport-noconfig.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/rosidl_cmake-extras.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/ament_cmake_export_targets-extras.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.865s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.866s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msgConfig.cmake
+[2.866s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/cmake/type_msgConfig-version.cmake
+[2.866s] -- Installing: /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg/share/type_msg/package.xml
+[2.868s] Invoked command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/type_msg

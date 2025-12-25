@@ -1,0 +1,22 @@
+[1.046s] Invoking command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/src/raspberry_brigde': CMAKE_PREFIX_PATH=/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg:/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/file_launch PYTHONPATH=/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/raspberry_brigde build --build-base /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build install --record /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/install.log --single-version-externally-managed install_data
+[1.269s] running egg_info
+[1.270s] writing ../../build/raspberry_brigde/raspberry_brigde.egg-info/PKG-INFO
+[1.271s] writing dependency_links to ../../build/raspberry_brigde/raspberry_brigde.egg-info/dependency_links.txt
+[1.271s] writing entry points to ../../build/raspberry_brigde/raspberry_brigde.egg-info/entry_points.txt
+[1.271s] writing requirements to ../../build/raspberry_brigde/raspberry_brigde.egg-info/requires.txt
+[1.271s] writing top-level names to ../../build/raspberry_brigde/raspberry_brigde.egg-info/top_level.txt
+[1.272s] reading manifest file '../../build/raspberry_brigde/raspberry_brigde.egg-info/SOURCES.txt'
+[1.273s] writing manifest file '../../build/raspberry_brigde/raspberry_brigde.egg-info/SOURCES.txt'
+[1.273s] running build
+[1.273s] running build_py
+[1.274s] running install
+[1.274s] running install_lib
+[1.275s] running install_data
+[1.276s] running install_egg_info
+[1.277s] removing '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde-0.0.0-py3.10.egg-info' (and everything under it)
+[1.277s] Copying ../../build/raspberry_brigde/raspberry_brigde.egg-info to /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages/raspberry_brigde-0.0.0-py3.10.egg-info
+[1.278s] running install_scripts
+[1.296s] Installing get_image script to /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/raspberry_brigde
+[1.297s] Installing send_signal_control script to /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/raspberry_brigde
+[1.297s] writing list of installed files to '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/install.log'
+[1.333s] Invoked command in '/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/src/raspberry_brigde' returned '0': CMAKE_PREFIX_PATH=/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/type_msg:/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/file_launch PYTHONPATH=/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/install/raspberry_brigde/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/raspberry_brigde build --build-base /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/build install --record /home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/build/raspberry_brigde/install.log --single-version-externally-managed install_data

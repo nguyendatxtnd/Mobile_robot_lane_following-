@@ -1,0 +1,9 @@
+setup.py
+type_msg/__init__.py
+type_msg.egg-info/PKG-INFO
+type_msg.egg-info/SOURCES.txt
+type_msg.egg-info/dependency_links.txt
+type_msg.egg-info/top_level.txt
+type_msg/msg/__init__.py
+type_msg/msg/_offset_angle.py
+type_msg/msg/_signal_control.py

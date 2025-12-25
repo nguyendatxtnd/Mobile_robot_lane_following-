@@ -1,0 +1,7 @@
+{
+  "package_name": "type_msg",
+  "non_idl_tuples": [
+    "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/src/type_msg:msg/OffsetAngle.msg",
+    "/home/nguyendat/Desktop/DA_RB_v_TTNT/github/Mobile_robot_lane_following/workspace/src/type_msg:msg/SignalControl.msg"
+  ]
+}
