@@ -28,17 +28,24 @@ STD=[0.2593, 0.2345, 0.2518]
 DISTANCE_LANE = 0.2    #khoang cach 2 lane/ kich thuoc duong di (m)
 
 
-length = 0.213 # m     29,6, 21,3
-width = 0.296   # m
+# length = 0.213 # m     29,6, 21,3
+# width = 0.296   # m
+length = 0.175 # m     175x250
+width = 0.250   # m
 SCALE = 1500 #px/m
 BEV_W = int(width * SCALE)
 BEV_H = int(length * SCALE)
 
 # Toa do mat phang anh
-src_point = np.array([[72, 113],
-                       [280, 115],
-                       [344, 218],
-                       [5, 212]], dtype=np.float32)
+# src_point = np.array([[72, 113],
+#                        [280, 115],
+#                        [344, 218],
+#                        [5, 212]], dtype=np.float32)
+
+src_point = np.array([[62, 102],
+                       [289, 98],
+                       [349, 249],
+                       [2, 250]], dtype=np.float32)
                        
 # Toa do mat dat (PIXEL BEV)
 dst_point = np.array([ [0, 0],
@@ -208,12 +215,12 @@ class LaneDetection(Node):
             cx_lane = (((cx_right - cx_left) / 2.0) + cx_left) - 0.01
         elif len(left_lane) > 0 and len(right_lane) == 0:
             cx_left = np.mean(left_lane)
-            cx_lane = w/2 + 0.021*self.SCALE
+            cx_lane = w/2 + 0.035*self.SCALE
             #cx_lane = cx_left + (DISTANCE_LANE/2)*self.SCALE
 
         elif len(left_lane) == 0 and len(right_lane) > 0:
             cx_right = np.mean(right_lane)
-            cx_lane = w/2 - 0.021*self.SCALE
+            cx_lane = w/2 - 0.035*self.SCALE
             #cx_lane = cx_right - (DISTANCE_LANE/2)*self.SCALE
         else:
             return 0.0, 0.0

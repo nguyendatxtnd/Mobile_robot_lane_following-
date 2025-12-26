@@ -15,7 +15,7 @@ import os
 package_share_dir = get_package_share_directory("obstacle_detection")
 WEIGHT_PATH = os.path.join(package_share_dir, "YOLO", "vatcan_best.pt")
 THRESHOLD = 0.85
-THRESHOLD_2 = 0.04
+THRESHOLD_2 = 0.05
 LABEL = ['wheel']
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -49,7 +49,7 @@ class ObstacleDetection(Node):
         self.prev_change_lane = False # tin hieu chuyen lan o frame truoc
         self.position = 0  # 0: l, 1: r
         self.obstacle_offset = 0.0
-        self.timeout_duration = 3.5  # timeout
+        self.timeout_duration = 3.0 # timeout
         self.last_obstacle_time = 0.0  #thoi diem phat hien vat can
 
         cv2.namedWindow("Obstacle Detection", cv2.WINDOW_NORMAL)
@@ -73,9 +73,9 @@ class ObstacleDetection(Node):
 
         if self.change_lane == True:
             if self.position == 0:
-                self.obstacle_offset = -0.04
+                self.obstacle_offset = -0.033
             else:
-                self.obstacle_offset = +0.04
+                self.obstacle_offset = +0.033
         elif self.change_lane == False and in_timeout == True:
             self.change_lane = True
             if self.position == 0:
